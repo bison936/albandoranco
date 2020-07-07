@@ -1,0 +1,28 @@
+<script>
+// Affichage des nombres compri entre 50 et 65
+ var x = 65;
+ for(var y=50; y<x; y++){
+ console.log(y);
+}
+
+// nombre divisible par 3 ou 7
+var n=21;
+for (var i=1; i<=n; i++){
+if (i % 3 ===0 || i % 7 ===0)
+console.log(i);
+}
+
+// nombre divisible par 5 et 7
+var a = 35;
+for (var b=1; b<a; b++){
+if (b % 5 ===0 && b% 7 ===0)
+console.log(b);
+}
+
+// Addition des nombres entre 10 et 20
+var x=10;
+var y=20;
+var sum=x+y;
+console.log("voici le resultat :"sum);
+
+</script>
